@@ -29,7 +29,7 @@
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
                   <label class="form-check-label" for="exampleCheck1">Ingat username dan password</label>
            </div>
-            <button type="submit" class="btn btn-primary">Login</button>
+            <button type="submit" class="btn btn-primary">login</button>
             </form>
             <p>
                <?php if(!empty(session()->getFlashdata('gagal'))) { ?>
