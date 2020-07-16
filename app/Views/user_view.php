@@ -24,7 +24,6 @@
 </head>
 
 <body>
-
     <div class="container mt-3">
         <h1>Hello, <?= session()->get('Nama'); ?>!</h1>
         <a class="btn btn-primary" href="/user/tambahdata" role="button">Tambah Data</a>
